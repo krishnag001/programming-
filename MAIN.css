@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto";
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  padding-inline: 5rem;
+  margin-top: 2rem;
+  gap: 5rem;
+}
+
+.text_gray {
+  color: gray;
+}
+
+.profile_picture {
+  padding-left: 8rem;
+}
+
+.card_title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.role {
+  color: orange;
+  font-size: xx-large;
+  margin-top: -1rem;
+}
+
+.section_title {
+  text-transform: uppercase;
+}
+
+.cards_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_title {
+  text-align: right;
+}
+
+.card_content {
+  text-transform: uppercase;
+}
